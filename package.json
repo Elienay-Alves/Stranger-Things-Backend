@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engine": {
+    "node": "14"
+  },
   "scripts": {
     "start": "node index.js",
     "test": "jest --runInBand  --detectOpenHandles --forceExit",
